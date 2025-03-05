@@ -1,4 +1,4 @@
-#!C:/Users/micha/AppData/Local/Programs/Python/Python313/python.exe
+#!C:/Users/tu usuario/AppData/Local/Programs/Python/Python313/python.exe
 
 import mysql.connector
 
@@ -15,8 +15,8 @@ try:
     conexion = mysql.connector.connect(
         host="localhost",
         user="root",                   # Tu usuario de MySQL
-        password="MichaelX 71099",      # Tu contraseña de MySQL
-        database="idgs13"    # Nombre de tu base de datos
+        password="tu contrasena",      # Tu contraseña de MySQL
+        database="tu bd"    # Nombre de tu base de datos
     )
 
     if conexion.is_connected():
